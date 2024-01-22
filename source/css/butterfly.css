@@ -1,0 +1,263 @@
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body{
+    background: rgb(234,251,255);
+    background: linear-gradient(203deg, rgba(234,251,255,1) 0%, rgba(213,255,230,1) 100%);
+}
+#page-header {
+    background-image: url("../images/bg2.svg");
+    animation: gradientBG 15s ease infinite;
+    background-size: 200% 200%;
+}
+
+#nav{
+    /*background: linear-gradient(0deg, rgba(68, 147, 152,1) 0%, rgba(219,219,219,0.05) 100%);*/
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px; /*字体间距*/
+    /*box-shadow: rgba(45, 128, 142,0.1) 0px 1px 0px 1px;*/
+}
+
+#card-info-btn{
+    background: linear-gradient(90deg, rgba(24,215,255,1) 0%, rgba(0,255,136,1) 35%, rgba(214,0,255,1) 100%);
+    height: 100%;
+    animation: gradientBG 15s ease infinite;
+    background-size: 300% 300%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#card-info-btn:hover{
+    scale: 1.03;
+}
+
+.recent-post-item:hover{
+    scale: 1.03;
+}
+
+#footer{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+
+}
+#footer-wrap{
+    color: black;
+    text-align: left;
+}
+
+#footer-wrap > div.framework-info > a{
+    color: gray;
+}
+
+#footer-wrap > div.footer_custom_text > a{
+    color: gray;
+}
+
+.card-info-data {
+    font-weight: bolder;
+}
+.card-info-data>a:hover {
+    scale: 1.05;
+    /*box-shadow: lightgray 0px 1px 0px 1px;*/
+    border-radius: 30px;
+    background: ghostwhite;
+}
+
+.article-title{
+    font-weight: bolder;
+}
+
+#post-info{
+    background: linear-gradient(90deg, rgba(24,215,255,1) 0%, rgba(108,255,187,0.5) 35%, rgba(0,189,255,0.2) 100%);
+    animation: gradientBG 15s ease infinite;
+    background-size: 300% 300%;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.post-copyright{
+    border-radius: 20px;
+    background: rgba(246, 248, 250);
+}
+
+.reward-button{
+    border-radius: 20px;
+}
+
+.reward-button:hover{
+    scale: 1.04;
+}
+
+.pagination-post{
+    border-radius: 20px;
+}
+.relatedPosts-list>div{
+    border-radius: 20px;
+    opacity: 100%;
+}
+
+#aside-content>.card-widget.card-info {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#aside-content>.card-widget.card-announcement {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#aside-content > div.sticky_layout > div.card-widget.card-recent-post {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#post{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#aside-content > div.sticky_layout > div.card-widget.card-categories{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#aside-content > div.sticky_layout > div.card-widget.card-tags{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#aside-content > div.sticky_layout > div.card-widget.card-archives{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#aside-content > div.sticky_layout > div.card-widget.card-webinfo{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#recent-posts{
+    background: transparent;
+}
+
+#recent-posts > div:nth-child(n){
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+#page-header.post-bg:before {
+    background-color: rgb(0 0 0 / 60%);
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+#rightside > div > button, #rightside > div > a {
+    display: block;
+    margin-bottom: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    color: #2d587a;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+/*本地搜索美化*/
+.search-dialog .search-nav {
+    color: #000000;
+    font-size: 1.6em;
+    line-height: 2;
+}
+#local-search .search-dialog .local-search-box input {
+    padding: 13px 21px;
+    border: 3px solid #4182d9;
+    border-radius: 11px;
+}
+hr {
+    border: 3px dashed #4f80d8;
+}
+
+#aside-content #card-toc .toc-content .toc-link.active {
+    background: #669cbe;
+    border-radius: 5px;
+}
+
+/*底部圆角*/
+#pagination.page-number.current {
+    background: linear-gradient(90deg, rgba(24,215,255,1) 0%, rgba(108,255,187,0.5) 35%, rgba(0,189,255,0.2) 100%);
+    background-size: 300% 300%;
+    border-radius: 10px;
+}

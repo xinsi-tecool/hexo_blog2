@@ -1,0 +1,23 @@
+- class_name: 各种链接
+  class_desc: 我的开源网站
+  link_list:
+    - name: github
+      link: https://github.com/rimdl/
+      avatar: https://avatars.githubusercontent.com/u/57860092?v=4
+      descr: 我的开源仓库
+    - name: gitee
+      link: https://gitee.com/imdl
+      avatar: https://foruda.gitee.com/avatar/1703561151502610349/7341530_imdl_1703561151.png!avatar200
+      descr: 我的gitee
+
+- class_name: 我的开源项目
+  class_desc: 写的各种垃圾代码~
+  link_list:
+    - name: GitPic
+      link: https://github.com/rimdl/GitPic/
+      avatar: https://raw.gitmirror.com/xinsi-tecool/mypic/main/3f285542-bb28-4458-ac0a-25b349d2d41e.jpg
+      descr: GitHub图床
+    - name: QPDBot
+      link: https://github.com/rimdl/QPDBot
+      avatar: https://raw.gitmirror.com/xinsi-tecool/mypic/main/2e9fec99-d7b3-48f8-a125-7beb2da3c5f9.png
+      descr: QQ频道可用的AI机器人

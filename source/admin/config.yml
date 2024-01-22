@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (master by default)
+
+# These lines should *not* be indented
+media_folder: 'xinsi_blog/source/images' # Media files will be stored in the repo under source/images
+public_folder: 'images' # The src attribute for uploaded media will begin with images
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+collections:
+  - name: 'Post' # Used in routes, e.g., /admin/collections/blog
+    label: 'Post' # Used in the UI
+    folder: 'xinsi_blog/source/_posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{title}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: '标题', name: 'title', widget: 'string'}
+      - {label: '发布日期', name: 'date', widget: 'datetime', format: "YYYY-MM-DD HH:mm:ss", required: false}
+      - {label: "更新日期", name: "updated", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false}
+      - { label: "标签", name: "tags", widget: "list", required: false }
+      - { label: "分类", name: "categories", widget: "list", required: false }
+      - { label: "头图", name: "cover", widget: "string", required: false }
+      - { label: "文章置顶（值越大越靠前）", name: "sticky", widget: "number", required: false }
+      - { label: "开/关toc目录", name: "toc", widget: "boolean",default: true, required: false }
+      - { label: "开/关评论", name: "comment", widget: "boolean",default: true, required: false }
+      - { label: "开/文章时效提示", name: "aging", widget: "boolean",default: true, required: false }
+      - { label: "设置时效提示的天数", name: "aging_days", widget: "number", default: 30, required: false }
+      - { label: "开/关文章分享", name: "share", widget: "boolean",default: true, required: false }
+      - { label: "开/关打赏", name: "reward", widget: "boolean",default: true, required: false }
+      - {label: '编辑区', name: 'body', widget: 'markdown'}
